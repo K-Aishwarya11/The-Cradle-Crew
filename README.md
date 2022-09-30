@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+The Cradle Crew
+INTRODUCTION
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In india, where finding a right day-care or Caretakers is a challenge.
 
-## Available Scripts
+Especially During Pandemic and work from home scenarios where crèche and babysitter were not an option. Here comes, ‘The Cradle Crew’ to the rescue. Our website not only provides Virtual babysitting but also makes it easier to find nearby crèches and day-care centres through the map. Offers flexibility to parents to choose right childcare according to their needs. And allows Caretakers and Creche to accept requests according to their capacity and convenience.
 
-In the project directory, you can run:
+PROPOSED SYSTEM
 
-### `npm start`
+“The Cradle Crew” aims to deliver a web-based application that hosts a wide collection of Registered and Verified Babysitters and Creches. Parents can find nearby creches on map and search through list of Babysitters and Creches, book services of the Service providers, Schedule virtual babysitting through video calling, see live CCTV of creches enrolled and give their feedback. Both parents and caretakers can Register themselves, after their KYC is verified by the Admin to ensure safety and security of children and service providers, users can update information on Admins can even delete users if the need arises.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+TO RUN THIS PROJECT
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+A. Change DB_CONNECTION in the file - cd ./The-Cradle-Crew/Server/.env
 
-### `npm test`
+B. Start Server 1. create new terminal 2. run command cd server 3. run command npm install 4. run command node index.js 5. server will start and data base connect itself
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+C. Start App 1. create new terminal 2. cd client 3. run command npm install 4. run command npm start 5. application will start in default browser
 
-### `npm run build`
+Home Page : http://localhost:3000/ Parent Registration Page : http://localhost:3000/reg/parent Parent Dashboard Page : http://localhost:3000/dashboard/parent
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+admin login - email: admin@gmail.com password: admin123
